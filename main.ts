@@ -1,7 +1,7 @@
 import { Serie } from "./serie";
 import { series } from "./data";
 
-let seriesTbody: HTMLElement = document.getElementById('series_tbody')!;
+let seriesTbody: HTMLElement = document.getElementById('series')!;
 
 renderSeriesInTable(series);
 

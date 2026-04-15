@@ -1,6 +1,6 @@
-import { Serie } from "./serie";
-import { series } from "./data";
-var seriesTbody = document.getElementById('series_tbody');
+import { Serie } from "./serie.js";
+import { series } from "./data.js";
+var seriesTbody = document.getElementById('series');
 renderSeriesInTable(series);
 function renderSeriesInTable(series) {
     console.log(series);
